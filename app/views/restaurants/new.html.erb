@@ -1,0 +1,17 @@
+<h1>Restaurants#new</h1>
+
+<%= simple_form(@restaurant) do |restaurant| %>
+  <%= restaurant.label :name %>
+  <%= restaurant.text_field :name %>
+
+  <%= restaurant.label :address %>
+  <%= restaurant.text_field :address %>
+
+  <%= restaurant.label :phone_number %>
+  <%= restaurant.text_field :phone_number %>
+
+  <%= restaurant.label :address %>
+  <%= restaurant.text_field :address %>
+
+  <%= restaurant.submit %>
+<% end %>
